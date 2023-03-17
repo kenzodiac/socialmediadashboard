@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+// Kenneth Fujimura
+// Last Revised: 3/17/2023
+// "Social Media Dashboard in React"
+// This is an assignment where we built out the front end of a social media dashboard website in React. We used components to reduce the amount of code significantly, and passed in variables through props. 
+// Peer Reviewed By: _______ -- "_______"
+//
+
 import './App.css';
+import MainStageComponent from './Components/MainStageComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainStageComponent/>
   );
 }
 
