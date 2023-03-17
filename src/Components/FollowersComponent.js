@@ -14,7 +14,7 @@ export default function FollowersComponent(props){
                 </div>
                 <div className="text-center">
                     <span className="followers-big-num">{props.totNum}</span><br/>
-                    <span className="followers-txt">Followers</span>
+                    <span className="followers-txt">FOLLOWERS</span>
                 </div>
                 <div className="d-flex align-items-center">
                     <img src={props.arrow} alt="" className="me-1"/> <span className={props.color}>{props.todayNum} Today</span>

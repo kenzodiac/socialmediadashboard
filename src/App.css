@@ -45,9 +45,8 @@
 }
 
 .background{
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
   font-family: Inter;
-  height: 400vh;
 }
 
 .background-overlay-top{
@@ -60,13 +59,14 @@
 
 /* ~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~ */
 .site-title{
-  font-size: 21px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: 700;
   color: var(--largeTxt);
 }
 
 .total-followers{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--smallTxt) !important;
 }
@@ -146,18 +146,21 @@
 
 .followers-big-num{
   color: var(--largeTxt);
-  font-size: 42px;
+  font-size: 52px;
   font-weight: 700;
+  line-height: 52px;
 }
 
 .followers-txt{
   color: var(--smallTxt);
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 13px;
   font-weight: 400;
+  letter-spacing: 4px;
 }
 
 .followers-change{
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -172,7 +175,7 @@
 /* ~~~~~~~~~~~~~~~~~~ Overview Section Styling ~~~~~~~~~~~~~~~~~~ */
 .overview-today{
   color: var(--overviewTxt);
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   padding-top: 50px;
 }
@@ -190,18 +193,28 @@
 
 .overview-cards:hover{
   background-color: var(--cardBgHover);
+  cursor: pointer;
 }
 
 .overview-card-title{
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--smallTxt);
 }
 
 .overview-num{
   color: var(--largeTxt);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
+  line-height: 26px;
+}
+
+.percent{
+  line-height: 13px;
+}
+
+.marginBottom{
+  padding-bottom: 45px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~ Toggle Switch (W3 Schools) ~~~~~~~~~~~~~~~~~~ */
