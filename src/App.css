@@ -109,12 +109,11 @@
   height: 212px;
   transition: 0.5s ease-in-out;
 }
-
-.card-properties:hover{
-  cursor: pointer;
-  background-color: var(--cardBgHover);
-  transition: 0.5s ease-in-out;
-}
+  .card-properties:hover{
+    cursor: pointer;
+    background-color: var(--cardBgHover);
+    transition: 0.1s ease-in-out;
+  }
 
 .card-properties-border{
   background-color: var(--cardBg);
@@ -129,7 +128,7 @@
 .card-properties-insta:hover{
   cursor: pointer;
   background-color: var(--cardBgHover);
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .card-border{
@@ -208,12 +207,11 @@
   padding: 25px 30px 26px 25px;
   transition: 0.5s ease-in-out;
 }
-
-.overview-cards:hover{
-  background-color: var(--cardBgHover);
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-}
+  .overview-cards:hover{
+    background-color: var(--cardBgHover);
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
 
 .overview-card-title{
   font-size: 13px;
@@ -283,7 +281,7 @@
 
 input:hover + .slider {
   background-image: var(--toggleBtnHover);
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 input:checked + .slider {
